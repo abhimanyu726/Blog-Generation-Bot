@@ -37,8 +37,11 @@ A project to generate blog posts (and translations) automatically using LangGrap
    pip install -r requirements.txt
 
 4. Create a .env file:
+   ```bash
    OPENAI_API_KEY=your_openai_api_key
    GROQ_API_KEY=your_groq_api_key
    LANGCHAIN_API_KEY=your_langchain_key
-5. Run the FastAPI server with Uvicorn
-uvicorn app:app --reload
+6. Run the FastAPI server with Uvicorn
+   ```bash
+   uvicorn app:app --reload
+
